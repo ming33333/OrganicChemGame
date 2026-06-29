@@ -1,0 +1,74 @@
+[
+  {
+    "id": "propene",
+    "display_name": "Propene",
+    "fantasy_name": "Emberwind Resin",
+    "smiles": "CC=C",
+    "tags": ["alkene"],
+    "color": "#e85d4a",
+    "icon": "molecule_alkene"
+  },
+  {
+    "id": "propane",
+    "display_name": "Propane",
+    "fantasy_name": "Stoneheart Oil",
+    "smiles": "CCC",
+    "tags": ["alkane"],
+    "color": "#8b9dc3",
+    "icon": "molecule_alkane"
+  },
+  {
+    "id": "propan_2_ol",
+    "display_name": "Propan-2-ol",
+    "fantasy_name": "Sunpetal Essence",
+    "smiles": "CC(C)O",
+    "tags": ["alcohol", "secondary"],
+    "color": "#4ecdc4",
+    "icon": "molecule_alcohol"
+  },
+  {
+    "id": "propene_dehydrated",
+    "display_name": "Propene (from dehydration)",
+    "fantasy_name": "Withered Emberwind",
+    "smiles": "CC=C",
+    "tags": ["alkene"],
+    "color": "#c44d3a",
+    "icon": "molecule_alkene"
+  },
+  {
+    "id": "acetone",
+    "display_name": "Propanone",
+    "fantasy_name": "Solar Crown",
+    "smiles": "CC(=O)C",
+    "tags": ["ketone"],
+    "color": "#ffd166",
+    "icon": "molecule_ketone"
+  },
+  {
+    "id": "cyclohexene",
+    "display_name": "Cyclohexene",
+    "fantasy_name": "Ring of Dawn",
+    "smiles": "C1=CCCCC1",
+    "tags": ["alkene", "cyclic"],
+    "color": "#e85d4a",
+    "icon": "molecule_alkene"
+  },
+  {
+    "id": "cyclohexanol",
+    "display_name": "Cyclohexanol",
+    "fantasy_name": "Dawnwheel Tonic",
+    "smiles": "OC1CCCCC1",
+    "tags": ["alcohol", "cyclic"],
+    "color": "#4ecdc4",
+    "icon": "molecule_alcohol"
+  },
+  {
+    "id": "cyclohexane",
+    "display_name": "Cyclohexane",
+    "fantasy_name": "Sealed Dawnwheel",
+    "smiles": "C1CCCCC1",
+    "tags": ["alkane", "cyclic"],
+    "color": "#8b9dc3",
+    "icon": "molecule_alkane"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "water_infusion",
+    "fantasy_name": "Water Infusion",
+    "teaching_name": "Acid-catalyzed hydration",
+    "icon": "spell_water",
+    "tags": ["hydration"],
+    "cost": 2,
+    "yield": 0.85,
+    "toxicity": 0.1,
+    "edges": [
+      {"from": "propene", "to": "propan_2_ol"},
+      {"from": "cyclohexene", "to": "cyclohexanol"}
+    ]
+  },
+  {
+    "id": "ember_unbind",
+    "fantasy_name": "Ember Unbind",
+    "teaching_name": "Acid-catalyzed dehydration",
+    "icon": "spell_fire",
+    "tags": ["dehydration"],
+    "cost": 2,
+    "yield": 0.80,
+    "toxicity": 0.2,
+    "edges": [
+      {"from": "propan_2_ol", "to": "propene"},
+      {"from": "cyclohexanol", "to": "cyclohexene"}
+    ]
+  },
+  {
+    "id": "life_bloom",
+    "fantasy_name": "Life Bloom",
+    "teaching_name": "Catalytic hydrogenation",
+    "icon": "spell_bloom",
+    "tags": ["hydrogenation"],
+    "cost": 3,
+    "yield": 0.95,
+    "toxicity": 0.0,
+    "edges": [
+      {"from": "propene", "to": "propane"},
+      {"from": "cyclohexene", "to": "cyclohexane"}
+    ]
+  },
+  {
+    "id": "solar_flame",
+    "fantasy_name": "Solar Flame",
+    "teaching_name": "PCC oxidation",
+    "icon": "spell_sun",
+    "tags": ["oxidation"],
+    "cost": 4,
+    "yield": 0.75,
+    "toxicity": 0.4,
+    "edges": [
+      {"from": "propan_2_ol", "to": "acetone"}
+    ]
+  },
+  {
+    "id": "moon_blessing",
+    "fantasy_name": "Moon Blessing",
+    "teaching_name": "Sodium borohydride reduction",
+    "icon": "spell_moon",
+    "tags": ["reduction"],
+    "cost": 3,
+    "yield": 0.90,
+    "toxicity": 0.1,
+    "edges": [
+      {"from": "acetone", "to": "propan_2_ol"}
+    ]
+  }
+]

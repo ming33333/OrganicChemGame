@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ch1_l01_hydration",
+    "chapter": 1,
+    "order": 1,
+    "title": "First Infusion",
+    "narrative": "The guild master needs Sunpetal Essence. Transform Emberwind Resin with Water Infusion.",
+    "start_molecule": "propene",
+    "goal_molecule": "propan_2_ol",
+    "allowed_reactions": ["water_infusion"],
+    "max_moves": null,
+    "scoring": {"par_moves": 1, "par_cost": 2, "par_toxicity": 0.2}
+  },
+  {
+    "id": "ch1_l02_dehydration",
+    "chapter": 1,
+    "order": 2,
+    "title": "Reverse the Flow",
+    "narrative": "A merchant wants raw Emberwind Resin. Undo the infusion with Ember Unbind.",
+    "start_molecule": "propan_2_ol",
+    "goal_molecule": "propene",
+    "allowed_reactions": ["ember_unbind"],
+    "max_moves": null,
+    "scoring": {"par_moves": 1, "par_cost": 2, "par_toxicity": 0.3}
+  },
+  {
+    "id": "ch1_l03_hydrogenation",
+    "chapter": 1,
+    "order": 3,
+    "title": "Life Bloom",
+    "narrative": "Seal the volatile resin into stable Stoneheart Oil using Life Bloom.",
+    "start_molecule": "propene",
+    "goal_molecule": "propane",
+    "allowed_reactions": ["life_bloom"],
+    "max_moves": null,
+    "scoring": {"par_moves": 1, "par_cost": 3, "par_toxicity": 0.1}
+  },
+  {
+    "id": "ch1_l04_chain",
+    "chapter": 1,
+    "order": 4,
+    "title": "The Long Brew",
+    "narrative": "Create Stoneheart Oil from Emberwind Resin — choose your path wisely.",
+    "start_molecule": "propene",
+    "goal_molecule": "propane",
+    "allowed_reactions": ["water_infusion", "ember_unbind", "life_bloom"],
+    "max_moves": 5,
+    "scoring": {"par_moves": 1, "par_cost": 3, "par_toxicity": 0.1}
+  },
+  {
+    "id": "ch1_l05_ring_hydration",
+    "chapter": 1,
+    "order": 5,
+    "title": "Dawnwheel Ritual",
+    "narrative": "Infuse the Ring of Dawn to brew Dawnwheel Tonic.",
+    "start_molecule": "cyclohexene",
+    "goal_molecule": "cyclohexanol",
+    "allowed_reactions": ["water_infusion", "ember_unbind", "life_bloom"],
+    "max_moves": 3,
+    "scoring": {"par_moves": 1, "par_cost": 2, "par_toxicity": 0.2}
+  },
+  {
+    "id": "ch1_l06_full_cycle",
+    "chapter": 1,
+    "order": 6,
+    "title": "Grand Apprentice Trial",
+    "narrative": "Transform Ring of Dawn into Sealed Dawnwheel using any guild spells.",
+    "start_molecule": "cyclohexene",
+    "goal_molecule": "cyclohexane",
+    "allowed_reactions": ["water_infusion", "ember_unbind", "life_bloom"],
+    "max_moves": 4,
+    "scoring": {"par_moves": 1, "par_cost": 3, "par_toxicity": 0.1}
+  }
+]
